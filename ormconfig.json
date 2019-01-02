@@ -1,0 +1,10 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3307,
+  "database": "ideas",
+  "username": "root",
+  "password": "1",
+  "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchronize": true
+}
