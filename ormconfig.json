@@ -6,5 +6,9 @@
   "username": "root",
   "password": "1",
   "entities": ["src/**/**.entity{.ts,.js}"],
+  "migrations": ["database/migration/*.js"],
+  "cli": {
+    "migrationsDir": "database/migration"
+  },
   "synchronize": true
 }
