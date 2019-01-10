@@ -8,6 +8,7 @@ export class IdeasController {
   constructor(
     private ideasService: IdeasService,
   ) {}
+
   @Get()
   showAll() {
     return this.ideasService.showAll();
